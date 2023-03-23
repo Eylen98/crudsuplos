@@ -2,6 +2,7 @@
 - PHP  8.0.25
 - @vue/cli 5.0.8
 - Bootstrap v4.2.1
+- Base de Datos MariaDB 10.4.27
 # CRUD
 - Acrónimo en español "Crear, Leer, Actualizar, Borrar"  
 - Acronimo en ingles"Create, Read, Update, Delete" 
@@ -36,6 +37,10 @@
   - Nombre con una longitud variable.
   - Dirección con una longitud variable.
   - Telefono con una logitud variable.
+ # Levantamiento del servicio
+  - Se debe ejecutar la siguiente linea "npm run serve"
+  - Antes de iniciar el servicio se debe de importar la base de datos que se en "bdexport/crudconvuejs.sql"
+ 
  # Créditos
  
 [Eylen Rodriguez](https://github.com/Eylen98/crudsuplos.git) autor original del contenido.
