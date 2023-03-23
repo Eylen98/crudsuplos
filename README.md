@@ -26,17 +26,16 @@
  - La web te ayuda a comprender el funcionamiento basico de una base de datos
    en un sistema de información mostrando datos almacenados precedentes de la
    misma.
- - Se creo un ejemplo generico para almacenar el nombre, dirección y telefono
-   de una perosna.
+ - Se creo un ejemplo generico para almacenar el marca, modelo y stock
+   de un movil.
  - Se requirio el uso de PHP, Bootstrap y SQL para mostrar, estilizar y 
-   alacenar los datos.
+   almacenar los datos.
 # Datos
 - Los datos son ingresados al sistema por medio de la UI.
-- Por fines educativos se incluye el ID como dato a ingresar.
 - Se puede ingresar: 
-  - Nombre con una longitud variable.
-  - Dirección con una longitud variable.
-  - Telefono con una logitud variable.
+  - Marca con una longitud variable.
+  - Modelo con una longitud variable.
+  - Stock con una logitud variable.
  # Levantamiento del servicio
   - Se debe ejecutar la siguiente linea "npm run serve"
   - Antes de iniciar el servicio se debe de importar la base de datos que se en "bdexport/crudconvuejs.sql"
